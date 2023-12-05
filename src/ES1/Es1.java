@@ -8,7 +8,7 @@ import java.util.Set;
 public class Es1 {
     public static void main(String[] args) {
         Set<String> parole = new HashSet<>();
-        ArrayList <String> doppioni = new ArrayList<>();
+        ArrayList<String> doppioni = new ArrayList<>();
 
         Scanner scanner = new Scanner(System.in);
 
@@ -20,7 +20,7 @@ public class Es1 {
             System.out.println("Inserisci adesso " + " " + (numeroIntero - i) + " " + "di parole");
             String parolaInserita = scanner.next();
 
-            if(!parole.add(parolaInserita)) {
+            if (!parole.add(parolaInserita)) {
                 doppioni.add(parolaInserita);
             }
         }
