@@ -9,10 +9,13 @@ public class Es3 {
         Rubrica.addContact("Ajeje", 339548555);
 
         Rubrica.removeContact("Marco");
+        Rubrica.removeContactByNameMethod2("Franco");
 
         Rubrica.findPhoneNumberByName("Ajeje");
 
         Rubrica.findNameByAPhoneNumber(339548555);
+        System.out.println("*************");
+        Rubrica.findNameByAPhoneNumberMethodTwo(339548555);
 
         System.out.println("L'elenco di tutte le persone salvate :" + Rubrica.getRubrica());
     }
